@@ -1,0 +1,25 @@
+{
+  "name": "wyrihaximus/doctrine-annotation-autoloader",
+  "description": "Request middleware",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cees-Jan Kiewiet",
+      "email": "ceesjank@gmail.com"
+    }
+  ],
+  "require": {
+    "doctrine/annotations": "^1.4"
+  },
+  "autoload": {
+    "files": [
+      "src/bootstrap.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "7.0"
+    }
+  }
+}
